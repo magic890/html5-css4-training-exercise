@@ -1,0 +1,30 @@
+{
+  "name": "html5css4ex",
+  "version": "0.0.1",
+  "main": "dist/index.html",
+  "authors": [
+    "Matteo Guarnerio<matteo.guarnerio@goodotcom.com>"
+  ],
+  "description": "HTML5 + CSS4 Exercise",
+  "devDependencies": {
+    "bower": "latest",
+    "del": "latest",
+    "gulp": "latest",
+    "gulp-watch": "latest",
+    "gulp-if": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-bower": "latest",
+    "gulp-concat": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-cssnano": "latest",
+    "gulp-rename": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "git-rev-sync": "latest",
+    "gulp-replace": "latest",
+    "imagemin-pngquant": "latest",
+    "browser-sync": "latest",
+    "yargs": "latest"
+  }
+}
