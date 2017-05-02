@@ -15,6 +15,10 @@ H5C4App
     })
     .config(function($routeProvider, $locationProvider) {
         $routeProvider
+            .when('/todo', {
+                templateUrl: 'template/todo/todo.html',
+                controller: 'TodoCtrl'
+            })
             .when('/dashboard', {
                 templateUrl: 'template/dashboard/dashboard.html',
                 controller: 'DashboardCtrl'
@@ -23,7 +27,7 @@ H5C4App
                 templateUrl: 'template/user/login.html',
                 controller: 'UserCtrl'
             })
-            .otherwise("/login");
+            .otherwise("/todo");
 
         //$locationProvider.html5Mode(true);
     });

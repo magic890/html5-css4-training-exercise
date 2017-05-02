@@ -1,0 +1,18 @@
+<h1>TODO PAGE</h1>
+
+<form class="form-inline">
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Your TODO" ng-model="newTodoValue" />
+    </div>
+    <button class="btn btn-default" ng-click="addTodo()">Add</button>
+</form>
+
+<ul>
+    <li ng-repeat="t in todoList" ng-class="{'todo-cleared': t.checked}">
+        <input type="checkbox" ng-model="t.checked" /> {{t.label}}
+    </li>
+</ul>
+
+<blockquote>
+    todoList: {{todoList}}
+</blockquote>
